@@ -6,7 +6,7 @@ export const useUniversalContext = () => useContext(UniversalContext);
 
 export const UniversalContextProvider = ({ children }) => {
 
-    const [leftSideBar, setLeftSideBar] = useState(false);
+    const [leftSideBar, setLeftSideBar] =    useState(false);
 
     const values = {
         leftSideBar, setLeftSideBar
